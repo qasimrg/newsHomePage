@@ -1,0 +1,253 @@
+
+@media  (max-width: 420px) {
+
+html {
+    margin: 0%;
+    height: 2100px;
+} 
+.mobile-menu li {
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    color: black;
+    cursor: pointer;
+} 
+.mobile-menu li:hover {
+    color: hsl(35, 77%, 62%);
+} 
+.mobile-menu ul {
+    padding: 0%;
+    margin-top: 50px;
+}
+.mobile-menu img{
+    float: right;
+}
+#nav-menu {
+    display: none;
+    background-color: rgb(255, 255, 255, 0.8); 
+    position: absolute;
+    height: 750px;
+    width: 66%;
+    right: 0px;
+    left: 130px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#nav-toggle {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+#close-button {
+    display: block;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px ;
+    margin: 0%;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.navigation img {
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+}
+.navigation-list {
+    display: flex;
+    align-items: center;
+}
+.no-bullet {
+    display: none;
+}
+
+.dropdown-icon {
+    display: block;
+    padding: 0%;
+}
+.dropdown-icon img {
+    width: 100%;
+    height: 10px;
+    margin-left: 0%;
+    display: block;
+}
+.mid-section {
+    display: flex;
+    flex-direction: column; 
+    gap: 50px;
+    width: 90%;
+}
+.left-mid-section {
+    display: flex;
+    flex-direction: column;
+}
+.mobile {
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 5px;
+}
+.desktop {
+    display: none;
+}
+.left-mid-lower-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;  
+}
+h4 {
+    font-size: 50px;
+    font-weight: 900;
+    width: 300px;
+    margin: 0%;
+    padding-bottom: 0%;
+    padding-top: 10px;
+    line-height: 63px;
+    color: black;
+}
+.lower-right-mid-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+    gap: 25px;
+} 
+p {
+    font-size: 15px;
+    font-weight: 500;
+    word-spacing: 5px;
+    line-height: 26px;
+    width: 350px;
+    padding-bottom: 0%;
+    padding-top: 20px;
+    color: gray;
+    margin: 0%;
+}
+button {
+    justify-content: baseline;
+    background-color: hsl(5, 85%, 63%);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    border: none;
+    font-weight: 700;
+    border-radius: 2px;
+}
+button:hover {
+    background-color: hsl(236, 13%, 42%);
+}
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 20px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.box img {
+    height: 100%;
+    width: 100px;
+    border-radius: 5px;
+}
+.box p {
+    color: gray;
+    width: 250px;
+    margin: 0%;
+    padding: 0%;
+    width: 210px;
+}
+.box h1 {
+    color: black;
+    margin: 0%;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+.box h1:hover {
+    color: hsl(5, 85%, 63%);
+}
+.box h2 {
+    color: gray;
+    margin: 0%;
+    font-size: 35px;
+}
+.right-mid-section {
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 95%;
+    align-items: center;
+    border-radius: 5px;
+}
+.side-box {
+    border-bottom: 1px solid gray;
+    width: 85%;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.side-box h1 {
+    font-size: 25px;
+    color: hsl(35, 77%, 62%);
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.side-box h6 {
+    margin: 0%;
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+.side-box p {
+    font-size: 15px;
+    padding: 0%;
+    width: 300px;
+    font-weight: 500;
+}
+.side-box-bottom {
+    border-bottom-width: 3px;
+    width: 90%;
+    padding-bottom: 30px;
+    padding-left: 12px;
+}
+.side-box-bottom h6 {
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+.side-box-bottom p {
+    font-size: 15px;
+    padding: 0%;
+    width: 310px;
+    font-weight: 500;
+}
+}
